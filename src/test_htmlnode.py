@@ -33,7 +33,7 @@ class TestHTMLNode(unittest.TestCase):
                 children="a child",
                 props={"href": "https://www.google.com","target": "_blank"}
                 ),
-                'href="https://www.google.com" target="_blank"'
+                ' href="https://www.google.com" target="_blank"'
             ),
             (
                 HTMLNode(),
@@ -48,7 +48,7 @@ class TestHTMLNode(unittest.TestCase):
                 children="a child",
                 props={"href": "https://www.google.com","target": "_blank"}
                 ),
-                'hrf="https://www.google.com" target="_blank"'
+                ' hrf="https://www.google.com" target="_blank"'
             ),
             (
                 HTMLNode(props={"href": "https://www.google.com","target": "_blank"}),
