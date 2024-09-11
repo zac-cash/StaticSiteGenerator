@@ -37,7 +37,7 @@ class TestHTMLNode(unittest.TestCase):
             ),
             (
                 HTMLNode(),
-                None
+                ''
             ),
         ]
         neg_testcases = [
